@@ -606,3 +606,51 @@ body {
     font-size: 28px;
   }
 }
+.ourProject {
+  background-color: #F6F6F8;
+}
+
+.ourProject__wrapper {
+  text-align: center;
+  padding: 100px 0 130px 0;
+}
+
+.ourProject__text {
+  text-align: center;
+  padding-bottom: 70px;
+}
+.ourProject__text > *:not(:last-child) {
+  padding-bottom: 50px;
+}
+
+.ourProject__text-caption {
+  color: #000;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 146.28%;
+}
+
+.ourProject__text-paragraph {
+  color: #999;
+  font-weight: 400;
+  line-height: 158.47%;
+}
+
+.ourProject__list {
+  display: flex;
+  padding-bottom: 50px;
+}
+
+.ourProject__list-item:not(:last-child) {
+  padding-right: 30px;
+}
+.ourProject__btn {
+  height: 45px;
+  background-color: #4985FF;
+  border-radius: 30px;
+  box-shadow: 0px 0px 10px 0px rgba(111, 111, 111, 0.25);
+}
+.ourProject__btn > a {
+  padding: 0 36px;
+  color: #fff;
+}
