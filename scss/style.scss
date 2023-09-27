@@ -744,8 +744,6 @@ body {
     background-color: #F6F6F8;
 }
 
-.ourProject__container {}
-
 .ourProject__wrapper {
     text-align: center;
     padding: 100px 0 130px 0;
@@ -755,7 +753,7 @@ body {
     text-align: center;
     padding-bottom: 70px;
 
-    &>*:not(:last-child) {
+    &>* :not(:last-child) {
         padding-bottom: 50px;
     }
 }
@@ -782,8 +780,6 @@ body {
     &:not(:last-child) {
         padding-right: 30px;
     }
-
-    &>img {}
 }
 
 

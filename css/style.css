@@ -619,7 +619,7 @@ body {
   text-align: center;
   padding-bottom: 70px;
 }
-.ourProject__text > *:not(:last-child) {
+.ourProject__text > * :not(:last-child) {
   padding-bottom: 50px;
 }
 
@@ -644,6 +644,7 @@ body {
 .ourProject__list-item:not(:last-child) {
   padding-right: 30px;
 }
+
 .ourProject__btn {
   height: 45px;
   background-color: #4985FF;
