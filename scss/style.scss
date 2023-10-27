@@ -928,6 +928,9 @@ body {
 }
 
 .form__input {
+    display: flex;
+    justify-content: center;
+
     input {
         padding: 10px 36px;
 
@@ -936,11 +939,20 @@ body {
             background-color: $btnColor;
             border-top-right-radius: 30px;
             border-bottom-right-radius: 30px;
+            border-right: 1px solid #F2F2F2;
+            border-top: 1px solid #F2F2F2;
+            border-bottom: 1px solid #F2F2F2;
+
+        }
+
+        &:nth-child(1) {
+            border-top-left-radius: 30px;
+            border-bottom-left-radius: 30px;
+            border-left: 1px solid #F2F2F2;
+            border-top: 1px solid #F2F2F2;
+            border-bottom: 1px solid #F2F2F2;
         }
     }
-
-    border: 1px solid #F2F2F2;
-    border-radius: 30px;
 }
 
 .form__input-email::placeholder {
@@ -949,6 +961,10 @@ body {
     line-height: 158.47%;
     color: $grey;
     background-color: $mainColor;
+}
+
+.form__input-button {
+    font-weight: 400;
 }
 
 .about__form-caption {
@@ -971,4 +987,72 @@ body {
     color: $grey;
     font-weight: 400;
     line-height: 158.47%;
+}
+
+@media (max-width: 425px) {
+
+    .about__title {
+        padding-top: 35px;
+    }
+
+    .video {
+        padding: 55px 0 70px 0;
+        margin-bottom: 70px;
+    }
+
+    .about__form-caption {
+        font-size: 14px;
+    }
+
+    .about__form-text {
+        font-size: 12px;
+    }
+
+    .form__input-email::placeholder {
+        font-size: 11px;
+    }
+
+    .form__input {
+        input {
+            padding: 5px 13px;
+        }
+    }
+
+    .about__form-footer {
+        font-size: 11px;
+    }
+
+    .form__input-button {
+        font-size: 13px;
+
+    }
+
+    .about__title-caption {
+        font-size: 24px;
+    }
+
+    .about__title-text {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 320px) {
+    .about__title-caption {
+        font-size: 20px;
+    }
+
+    .about__title-text {
+        font-size: 10px;
+    }
+
+    .video {
+        padding: 40px 0 55px 0;
+        margin-bottom: 55px;
+    }
+
+    .form__input {
+        input {
+            padding: 7px 5px;
+        }
+    }
 }
